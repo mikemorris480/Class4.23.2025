@@ -1,0 +1,145 @@
+.one {
+    position: static;
+    border: solid black
+}
+
+.two {
+    position: relative;
+    left: 50px;
+    top: 30px;
+    border: dotted black 3px;
+}
+
+.three {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    border: solid black 5px;
+}
+
+.four {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    border: solid black 5px;
+}
+
+.five {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: solid red 3px;
+}
+
+.six {
+    position: absolute;
+    top: 125px;
+    right: 0;
+    height: 50px;
+    border: solid blue 3px;
+}
+
+.seven {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: yellow;
+    border: solid orange 3px;
+}
+
+.overflow1 {
+    overflow: auto;
+    background-color: yellow;
+    height: 250px;
+    width:150px;
+}
+
+/* hidden, scroll, auto, visible */
+
+.overflow2 {
+    overflow: auto;
+    height: 100px;
+    border: solid black 3px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.some {
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+.ten {
+    background-color: red;
+    float: left
+}
+.eleven {
+    background-color: blue;
+    float: left
+}.twelve {
+    background-color: green;
+    float: left
+}.thirteen {
+    background-color: pink;
+    float: left
+}
+
+.fourteen {
+    background-color: yellow;
+    float: left
+}
+
+.button{
+    background-color: red;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 150px;
+    z-index: 10;
+}
+
+.content > a {
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.content > a:hover {
+    background-color: aqua;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover .button {
+    background-color: blue;
+}
+
+
